@@ -38,13 +38,13 @@
     {
       "id": "kw-001",
       "name": "大野庄用水(長町武家屋敷跡)",
-      "canalName": "大野庄用水",
+      "canal_Name": "大野庄用水",
       "lat": 36.5558,
       "lng": 136.6515,
-      "thumbnailUrl": null
+      "thumbnail_Url": null
     }
   ],
-  "updatedAt": "2026-10-14T10:00:00+09:00"
+  "updated_At": "2026-10-14T10:00:00+09:00"
 }
 ```
 
@@ -59,14 +59,14 @@
 {
   "id": "kw-001",
   "lang": "ja",
-  "isFallback": false,
+  "is_Fallback": false,
   "name": "大野庄用水(長町武家屋敷跡)",
-  "canalName": "大野庄用水",
+  "canal_Name": "大野庄用水",
   "description": "説明文",
   "lat": 36.5558,
   "lng": 136.6515,
   "media": [],
-  "updatedAt": "2026-10-14T10:00:00+09:00"
+  "updated_At": "2026-10-14T10:00:00+09:00"
 }
 ```
 
