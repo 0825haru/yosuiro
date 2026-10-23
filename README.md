@@ -61,7 +61,7 @@ kanazawa-yosui/
 
 
 
-ローカル環境からgithubにあげる方法
+# ローカル環境からgithubにあげる方法
 1. git init
 2. git add .
 3. git commit -m "変更内容を記載"
