@@ -1,0 +1,21 @@
+{
+  "spots": [
+    {
+      "id": "kw-001",
+      "name": "泉用水",
+      "canal_name": "泉用水",
+      "lat": 36.55818,
+      "lng": 136.647605,
+      "thumbnail_url": null
+    },
+    {
+      "id": "kw-002",
+      "name": "中村高畠用水",
+      "canal_name": "中村高畠用水",
+      "lat": 36.56055,
+      "lng": 136.647472,
+      "thumbnail_url": null
+    }
+  ],
+  "updated_at": "2026-10-23T14:44:10+09:00"
+}
