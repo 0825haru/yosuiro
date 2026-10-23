@@ -1,0 +1,198 @@
+body {
+    background-color: #eeeeee;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #3366cc;
+    font-size: 50px;
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3366cc;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 25px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #224499;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* プロフィールカード */
+.profile-card {
+    background-color: white;
+    width: 350px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+/* プロフィール画像 */
+.profile-image {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* カードのタイトル */
+.profile-card h2 {
+    color: #3366cc;
+    font-size: 28px;
+}
+
+/* カード内の文章 */
+.profile-card p {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* ページ全体 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* ヘッダー */
+header {
+    background-color: #25344a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* メインビジュアル */
+.hero {
+    background-color: #dce8fb;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #1e3a5f;
+    font-size: 40px;
+}
+
+/* カードを並べる */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #3366cc;
+}
+
+.card a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+/* フッター */
+footer {
+    background-color: #25344a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* スマホ用 */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+}
